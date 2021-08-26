@@ -121,9 +121,9 @@ function sizeUHandleClick() {
       if (xbox.sizes.items.U.status === "Produkt dostępny") {
         status.innerHTML = xbox.sizes.items.U.status;
         iconStatus.innerHTML =
-          "<img src='images/check.svg' alt='check' class='check' />";
+          "<img src='check.svg' alt='check' class='check' />";
         sendInfo.innerHTML =
-          "<img src='images/time.svg'alt='time' class='time'/><div class='container_content-send'><p>Możemy wysłac już dzisiaj</p><p class='container_content-blue'>Sprawdź czas i koszty wysyłki</p></div> ";
+          "<img src='time.svg'alt='time' class='time'/><div class='container_content-send'><p>Możemy wysłac już dzisiaj</p><p class='container_content-blue'>Sprawdź czas i koszty wysyłki</p></div> ";
         let numberAdd = document.querySelector(".up-number_button");
         let numberSub = document.querySelector(".down-number_button");
         var x = 0;
@@ -149,10 +149,10 @@ function sizeUHandleClick() {
         }
       } else {
         iconStatus.innerHTML =
-          "<img src='images/no_icon.svg' alt='no' class='check' />";
+          "<img src='no_icon.svg' alt='no' class='check' />";
         status.innerHTML = "Produkt niedostępny";
         sendInfo.innerHTML =
-          "<img src='images/time.svg'alt='time' class='time'/><div class='container_content-send'><p>Dostawa niebawem</p><p>Wybierz inny rozmiar</p>";
+          "<img src='time.svg'alt='time' class='time'/><div class='container_content-send'><p>Dostawa niebawem</p><p>Wybierz inny rozmiar</p>";
         counter = document.getElementById("quantity");
         counter.innerHTML = 0;
       }
@@ -172,9 +172,9 @@ function sizeVHandleClick() {
       if (xbox.sizes.items.V.status === "Produkt dostępny") {
         status.innerHTML = xbox.sizes.items.V.status;
         iconStatus.innerHTML =
-          "<img src='images/check.svg' alt='check' class='check' />";
+          "<img src='check.svg' alt='check' class='check' />";
         sendInfo.innerHTML =
-          "<img src='images/time.svg'alt='time' class='time'/><div class='container_content-send'><p>Możemy wysłac już dzisiaj</p><p class='container_content-blue'>Sprawdź czas i koszty wysyłki</p></div> ";
+          "<img src='time.svg'alt='time' class='time'/><div class='container_content-send'><p>Możemy wysłac już dzisiaj</p><p class='container_content-blue'>Sprawdź czas i koszty wysyłki</p></div> ";
 
         let numberAdd = document.querySelector(".up-number_button");
         let numberSub = document.querySelector(".down-number_button");
@@ -201,10 +201,10 @@ function sizeVHandleClick() {
         }
       } else {
         iconStatus.innerHTML =
-          "<img src='images/no_icon.svg' alt='no' class='check' />";
+          "<img src='no_icon.svg' alt='no' class='check' />";
         status.innerHTML = "Produkt niedostępny";
         sendInfo.innerHTML =
-          "<img src='images/time.svg'alt='time' class='time'/><div class='container_content-send'><p>Dostawa niebawem</p><p>Wybierz inny rozmiar</p>";
+          "<img src='time.svg'alt='time' class='time'/><div class='container_content-send'><p>Dostawa niebawem</p><p>Wybierz inny rozmiar</p>";
         counter = document.getElementById("quantity");
         counter.innerHTML = 0;
       }
@@ -225,9 +225,9 @@ function sizeWHandleClick() {
       if (xbox.sizes.items.W.status === "Produkt dostępny") {
         status.innerHTML = xbox.sizes.items.W.status;
         iconStatus.innerHTML =
-          "<img src='images/check.svg' alt='check' class='check' />";
+          "<img src='check.svg' alt='check' class='check' />";
         sendInfo.innerHTML =
-          "<img src='images/time.svg'alt='time' class='time'/><div class='container_content-send'><p>Możemy wysłac już dzisiaj</p><p class='container_content-blue'>Sprawdź czas i koszty wysyłki</p></div> ";
+          "<img src='time.svg'alt='time' class='time'/><div class='container_content-send'><p>Możemy wysłac już dzisiaj</p><p class='container_content-blue'>Sprawdź czas i koszty wysyłki</p></div> ";
 
         let numberAdd = document.querySelector(".up-number_button");
         let numberSub = document.querySelector(".down-number_button");
@@ -253,10 +253,10 @@ function sizeWHandleClick() {
         }
       } else {
         iconStatus.innerHTML =
-          "<img src='images/no_icon.svg' alt='no' class='check' />";
+          "<img src='no_icon.svg' alt='no' class='check' />";
         status.innerHTML = "Produkt niedostępny";
         sendInfo.innerHTML =
-          "<img src='images/time.svg'alt='time' class='time'/><div class='container_content-send'><p>Dostawa niebawem</p><p>Wybierz inny rozmiar</p>";
+          "<img src='time.svg'alt='time' class='time'/><div class='container_content-send'><p>Dostawa niebawem</p><p>Wybierz inny rozmiar</p>";
         counter = document.getElementById("quantity");
         counter.innerHTML = 0;
       }
