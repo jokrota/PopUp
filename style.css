@@ -56,13 +56,13 @@
   margin-left: 2vw;
 }
 .slide1 {
-  background-image: url("images/xbox-white.png");
+  background-image: url("xbox-white.png");
 }
 .slide2 {
-  background-image: url("images/xbox_black.PNG");
+  background-image: url("xbox_black.PNG");
 }
 .slide3 {
-  background-image: url("images/XboxSilver.PNG");
+  background-image: url("XboxSilver.PNG");
 }
 .slide-content {
   margin: 0;
