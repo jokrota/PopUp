@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button data-open-target="#popup" class="open_button">Click me!</button>
+    <form action="#" method="#" enctype="text/plain">
+      <div class="popup" id="popup">
+        <div class="container_img">
+          <div id="arrow-right" class="arrow">&rsaquo;</div>
+          <div class="slide slide1">
+            <div class="slide-content"></div>
+          </div>
+          <div class="slide slide2">
+            <div class="slide-content"></div>
+          </div>
+          <div class="slide slide3">
+            <div class="slide-content"></div>
+          </div>
+          <div id="arrow-left" class="arrow">&lsaquo;</div>
+        </div>
+        <div class="container_description">
+          <div class="container_title">
+            <h1 class="popupTitle" id="product"></h1>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="container_content">
+            <p id="price" class="container_content-price" name ="price"/></p>
+            <label class="container_content-size">Rozmiar:</label>
+            <div>
+              <button
+              class="content_product-size   product_size-blue product_sizeU"
+              id="product_sizeU"
+            ></button>
+            <button
+              class="content_product-size  product_size-blue product_sizeV"
+              id="product_sizeV"
+            ></button>
+            <button
+              class="content_product-size  product_size-blue product_sizeW"
+              id="product_sizeW"
+            ></button>
+            </div>
+            
+            <label class="container_content-wariant">Wariant:</label>
+            <div><select class="content_product-colour" id="product_colour"></select></div>
+            <div class="container_content-status">
+              <div class="content_status-left">
+                <div id="icon_status">
+                 
+                </div>
+                <p id="status" class="container_content-info"></p>
+              </div>
+              <div class="content_status-right" id="send_info">
+               
+              </div>
+            </div>
+            <div class="container_content-submit">
+              
+              <div class="container_quantity">
+                <button class="down-number_button" >-</button>
+                <p
+                  id="quantity"
+                  class="container_content-quantity"
+                ></p>
+                <button class="up-number_button" >+</button>
+              </div>
+
+              <button
+                id="submit"
+                name="submit"
+                type="submit"
+                class="container_content-button"/>Dodaj do koszyka</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <div id="overlay"></div>
+    <script type="text/javascript" src="xbox.json"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
